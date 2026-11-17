@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The LedFx engine serves its UI over plain HTTP on the phone itself, and LED
+     controllers (WLED etc.) on the LAN only speak plain HTTP, so cleartext is allowed. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

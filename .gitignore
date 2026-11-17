@@ -1,0 +1,26 @@
+# Gradle / Android Studio
+.gradle/
+.idea/
+.kotlin/
+build/
+app/build/
+app/release/
+local.properties
+*.iml
+captures/
+.cxx/
+
+# Signing (never commit keys)
+*.keystore
+*.jks
+keystore.properties
+
+# Built APKs are published as GitHub release assets
+*.apk
+*.aab
+
+# Earlier Python-based prototype (kept locally only)
+legacy-python-port/
+
+# Python
+__pycache__/
